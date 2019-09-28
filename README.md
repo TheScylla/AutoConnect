@@ -11,21 +11,21 @@ Contacter moi sur discord pour en obtenir une.
 AutoConnect est un programme interagissant avec FlatyBot 2. Il permet la connexion, la configuration et l'automatisation de vos bots Dofus 2.
 **Il existe en trois versions :**
 
-⋅⋅*AutoConnect UI
-⋅⋅*AutoConnect No UI
-⋅⋅*AutoConnect Web (fonctionnant avec la version No UI)
+*AutoConnect UI
+*AutoConnect No UI
+*AutoConnect Web (fonctionnant avec la version No UI)
 
 **AutoConnect UI**
->Cette version permet de connecter et de configurer les bots grâce à une interface utilisateur directement sur l'hôte exécutant FlatyBot. 
->_Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
+⋅⋅⋅Cette version permet de connecter et de configurer les bots grâce à une interface utilisateur directement sur l'hôte exécutant FlatyBot. 
+⋅⋅⋅_Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
 
 **AutoConnect No UI**
->Cette version, comme son nom l'indique, fonctionne sans interface utilisateur. Elle possède les mêmes fonctionnalités que la version UI mais les commandes se lancent depuis un terminal. 
+⋅⋅⋅Cette version, comme son nom l'indique, fonctionne sans interface utilisateur. Elle possède les mêmes fonctionnalités que la version UI mais les commandes se lancent depuis un terminal. 
 Elle a l'avantage de permettre la planification des tâches depuis le planificateur de tâches Windows.
->_Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
+⋅⋅⋅_Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
 
 **AutoConnect Web**
->Cette version permet au utilisateur de gérer leurs bots Flaty depuis une interface Web. Elle possède les mêmes fonctionnalités que les deux versions précédentes tout-en en ajoutant de nouvelles.
+⋅⋅⋅Cette version permet au utilisateur de gérer leurs bots Flaty depuis une interface Web. Elle possède les mêmes fonctionnalités que les deux versions précédentes tout-en en ajoutant de nouvelles.
 
 ## Fonctionnalités
 
