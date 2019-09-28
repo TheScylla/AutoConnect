@@ -50,10 +50,15 @@ _Depuis l'interface Web_
 *_Prochainement :_*
 
 _- Gestion des tâches planifiées relatives à AutoConnect_
+
 _- Création et modification des trajets/IA_
+
 _- Visualisation des bots (fenêtre Dofus)_
+
 _- Contrôle à distance des bots_
+
 _- Gestion des actions automatisées (réponse aux messages privées)_
+
 
 ## Prérequis 
 
