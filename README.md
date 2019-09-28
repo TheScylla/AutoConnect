@@ -40,6 +40,7 @@ Elle a l'avantage de permettre la planification des tâches depuis le planificat
 - Planification des tâches (reservé à No UI)
 
 **AutoConnect Web**
+
 _Depuis l'interface Web_
 
 - Connexion/déconnexion automatisée des bots
@@ -93,15 +94,15 @@ Pour les version Web et No UI, une session Windows doit être ouverte pour que l
 - Sauvegarder la configuration
 - Connecter les bots
 
-_Save_
+**_Save_**
 
 Permet de sauvegarder la configuration (Nom de nom, mot de passe, trajet et IA) dans un fichier pour ne pas avoir à remplir les champs à chaque utilisation.
 
-_connect_Selected_
+**_connect_Selected_**
 
 Permet de connecter les slots cochés. Permet également de configurer/reconfigurer les trajets, IA et clé de notifications PushBullet. Enfin vous pouvez activer les notifications PushBullet.
 
-_connect_All_
+**_connect_All_**
 
 Permet de connecter l'ensemble des comptes configurés.
 
@@ -121,13 +122,17 @@ __Planification des tâches :__
 - Ouvrir le planificateur de tâches Windows
 - Créer une nouvelle tâches
 - Ajouter la tâche (dans action):
+
 ⋅⋅⋅Programme/script : votre fichier .bat ou l'exécutable AutoConnect_no_ui.exe
+
 ⋅⋅⋅Arguments : _</commande>_ (seulement si vous ne passer pas par un fichier .bat)
+
 ⋅⋅⋅Commencer dans : le chemin vers l'exécutable AutoConnect_no_ui.exe
+
 
 #### Listes des commandes
 
-_/config <FlatySlot#> /ID <AccountID> /PW <PassWord> /Trajet <PathToTrajet> /IA <PathToIA>_
+>_/config <FlatySlot#> /ID <AccountID> /PW <PassWord> /Trajet <PathToTrajet> /IA <PathToIA>_
     
 -- Cette commande modifie le slot associé ou ajoute un compte au fichier de configuration si le slot n'existait pas
 
@@ -141,6 +146,7 @@ Il est possible de configurer un seul paramètre :
 _/config 0 /Trajet c:\Trajet.lua_
 
 >_/connect <AccountNumber> </configTrajet> </configIA> </configNotif> </notif>_
+
 ⋅⋅⋅-- Cette commande permet de connecter les bots et de lancer les trajets.
 
 **[ATTENTION]**
@@ -150,28 +156,36 @@ __Deux utilisations possibles :__
 
 - Connecter tout les bots :
 >_/connect_ 
+
 ⋅⋅⋅-- Cette commande connectera tout les bots sans les reconfigurer
 
 >_/connect /configIA_
+
 ⋅⋅⋅-- Cette commande connectera tout les bots en reconfigurant l'IA de chaque compte par rapport au fichier de configuration
 
 >_/connect /configTrajet /configIA /configNotif /notif_
+
 ⋅⋅⋅-- Cette commande connectera tout les bots en les reconfigurant complètement d'après le fichier de configuration et activera les notifiactions sur chacun d'eux
 
 - Connecter seulement les bots sélectionner :
 >_/connect 0 1 5 6_
+
 ⋅⋅⋅-- Cette commande connectera les comptes 0,1,5 et 6 sur les slots 0,1,2 et 3
 
 >_/connect 0 /configTrajet /notif 4 /configNotif /notif_
+
 ⋅⋅⋅-- Cette commande connectera le bot 0 en reconfigurant le trajet et en activant les notifications. Elle connectera également le bot 4 en reconfigurant les notifications et en les activants.
 
 >_/kill_FlatyBot_
+
 ⋅⋅⋅-- Cette commande termine toute les instances de FlatyBot
 
 >_/kill_FlatyVore_
+
 ⋅⋅⋅-- Cette commande termine toute les instances de FlatyVore
 
 >_/kill_Dofus_
+
 ⋅⋅⋅-- Cette commande termine toute les instances de Dofus
 
 ### **AutoConnect Web**
