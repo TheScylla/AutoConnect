@@ -17,8 +17,9 @@ AutoConnect est un programme interagissant avec FlatyBot 2. Il permet la connexi
 
 **AutoConnect UI**
 
-⋅⋅⋅ Cette version permet de connecter et de configurer les bots grâce à une interface utilisateur directement sur l'hôte exécutant FlatyBot. 
-⋅⋅⋅ Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
+⋅⋅⋅Cette version permet de connecter et de configurer les bots grâce à une interface utilisateur directement sur l'hôte exécutant FlatyBot. 
+
+⋅⋅⋅Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
 
 **AutoConnect No UI**
 
