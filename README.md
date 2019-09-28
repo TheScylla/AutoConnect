@@ -10,9 +10,10 @@ Contacter moi sur discord pour en obtenir une.
 
 AutoConnect est un programme interagissant avec FlatyBot 2. Il permet la connexion, la configuration et l'automatisation de vos bots Dofus 2.
 **Il existe en trois versions :**
+
 ⋅⋅*AutoConnect UI
- ⋅⋅*AutoConnect No UI
- ⋅⋅*AutoConnect Web (fonctionnant avec la version No UI)
+⋅⋅*AutoConnect No UI
+⋅⋅*AutoConnect Web (fonctionnant avec la version No UI)
 
 **AutoConnect UI**
 >Cette version permet de connecter et de configurer les bots grâce à une interface utilisateur directement sur l'hôte exécutant FlatyBot. 
