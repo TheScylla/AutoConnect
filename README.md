@@ -17,19 +17,18 @@ AutoConnect est un programme interagissant avec FlatyBot 2. Il permet la connexi
 
 **AutoConnect UI**
 
-&nbsp;Cette version permet de connecter et de configurer les bots grâce à une interface utilisateur directement sur l'hôte exécutant FlatyBot. 
-
-&nbsp;Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
+&nbsp;&nbsp;&nbsp;&nbsp;Cette version permet de connecter et de configurer les bots grâce à une interface utilisateur directement sur l'hôte exécutant FlatyBot. 
+&nbsp;&nbsp;&nbsp;&nbsp;Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
 
 **AutoConnect No UI**
 
-&nbsp;Cette version, comme son nom l'indique, fonctionne sans interface utilisateur. Elle possède les mêmes fonctionnalités que la version UI mais les commandes se lancent depuis un terminal. 
+&nbsp;&nbsp;&nbsp;&nbsp;Cette version, comme son nom l'indique, fonctionne sans interface utilisateur. Elle possède les mêmes fonctionnalités que la version UI mais les commandes se lancent depuis un terminal. 
 Elle a l'avantage de permettre la planification des tâches depuis le planificateur de tâches Windows.
-&nbsp;Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
+&nbsp;&nbsp;&nbsp;&nbsp;Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
 
 **AutoConnect Web**
 
-&nbsp;Cette version permet au utilisateur de gérer leurs bots Flaty depuis une interface Web. Elle possède les mêmes fonctionnalités que les deux versions précédentes tout-en en ajoutant de nouvelles.
+&nbsp;&nbsp;&nbsp;&nbsp;Cette version permet au utilisateur de gérer leurs bots Flaty depuis une interface Web. Elle possède les mêmes fonctionnalités que les deux versions précédentes tout-en en ajoutant de nouvelles.
 
 ## Fonctionnalités
 
@@ -124,9 +123,9 @@ __Planification des tâches :__
 - Créer une nouvelle tâches
 - Ajouter la tâche (dans action):
 
-&nbsp;Programme/script : votre fichier .bat ou l'exécutable AutoConnect_no_ui.exe
-&nbsp;Arguments : _</commande>_ (seulement si vous ne passer pas par un fichier .bat)
-&nbsp;Commencer dans : le chemin vers l'exécutable AutoConnect_no_ui.exe
+&nbsp;&nbsp;&nbsp;&nbsp;Programme/script : votre fichier .bat ou l'exécutable AutoConnect_no_ui.exe
+&nbsp;&nbsp;&nbsp;&nbsp;Arguments : _</commande>_ (seulement si vous ne passer pas par un fichier .bat)
+&nbsp;&nbsp;&nbsp;&nbsp;Commencer dans : le chemin vers l'exécutable AutoConnect_no_ui.exe
 
 
 #### Listes des commandes
@@ -164,33 +163,33 @@ __Deux utilisations possibles :__
 
 >_/connect /configTrajet /configIA /configNotif /notif_
 
-⋅⋅⋅-- Cette commande connectera tout les bots en les reconfigurant complètement d'après le fichier de configuration et activera les notifiactions sur chacun d'eux
+&nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande connectera tout les bots en les reconfigurant complètement d'après le fichier de configuration et activera les notifiactions sur chacun d'eux
 
 - Connecter seulement les bots sélectionner :
 >_/connect 0 1 5 6_
 
-⋅⋅⋅-- Cette commande connectera les comptes 0,1,5 et 6 sur les slots 0,1,2 et 3
+&nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande connectera les comptes 0,1,5 et 6 sur les slots 0,1,2 et 3
 
 >_/connect 0 /configTrajet /notif 4 /configNotif /notif_
 
-⋅⋅⋅-- Cette commande connectera le bot 0 en reconfigurant le trajet et en activant les notifications. Elle connectera également le bot 4 en reconfigurant les notifications et en les activants.
+&nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande connectera le bot 0 en reconfigurant le trajet et en activant les notifications. Elle connectera également le bot 4 en reconfigurant les notifications et en les activants.
 
 >_/kill_FlatyBot_
 
-⋅⋅⋅-- Cette commande termine toute les instances de FlatyBot
+&nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande termine toute les instances de FlatyBot
 
 >_/kill_FlatyVore_
 
-⋅⋅⋅-- Cette commande termine toute les instances de FlatyVore
+&nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande termine toute les instances de FlatyVore
 
 >_/kill_Dofus_
 
-⋅⋅⋅-- Cette commande termine toute les instances de Dofus
+&nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande termine toute les instances de Dofus
 
 ### **AutoConnect Web**
 
 - Extraire l'archive AutoConnect_Web dans le dossier FlatyBot (où se trouve FlatyBot.exe)
-⋅⋅⋅**Ne modifiez pas la structure des dossiers**
+&nbsp;&nbsp;&nbsp;&nbsp;**Ne modifiez pas la structure des dossiers**
 - Ouvrir le fichier licencekey.txt pour remplir votre clé de licence
 - Lancer le fichier client AutoConnect.exe
 
