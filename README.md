@@ -17,19 +17,19 @@ AutoConnect est un programme interagissant avec FlatyBot 2. Il permet la connexi
 
 **AutoConnect UI**
 
-⋅⋅⋅Cette version permet de connecter et de configurer les bots grâce à une interface utilisateur directement sur l'hôte exécutant FlatyBot. 
+&nbsp;Cette version permet de connecter et de configurer les bots grâce à une interface utilisateur directement sur l'hôte exécutant FlatyBot. 
 
-⋅⋅⋅Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
+&nbsp;Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
 
 **AutoConnect No UI**
 
-⋅⋅⋅ Cette version, comme son nom l'indique, fonctionne sans interface utilisateur. Elle possède les mêmes fonctionnalités que la version UI mais les commandes se lancent depuis un terminal. 
+&nbsp;Cette version, comme son nom l'indique, fonctionne sans interface utilisateur. Elle possède les mêmes fonctionnalités que la version UI mais les commandes se lancent depuis un terminal. 
 Elle a l'avantage de permettre la planification des tâches depuis le planificateur de tâches Windows.
-⋅⋅⋅ Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
+&nbsp;Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
 
 **AutoConnect Web**
 
-⋅⋅ Cette version permet au utilisateur de gérer leurs bots Flaty depuis une interface Web. Elle possède les mêmes fonctionnalités que les deux versions précédentes tout-en en ajoutant de nouvelles.
+&nbsp;Cette version permet au utilisateur de gérer leurs bots Flaty depuis une interface Web. Elle possède les mêmes fonctionnalités que les deux versions précédentes tout-en en ajoutant de nouvelles.
 
 ## Fonctionnalités
 
@@ -124,27 +124,25 @@ __Planification des tâches :__
 - Créer une nouvelle tâches
 - Ajouter la tâche (dans action):
 
-⋅⋅⋅Programme/script : votre fichier .bat ou l'exécutable AutoConnect_no_ui.exe
-
-⋅⋅⋅Arguments : _</commande>_ (seulement si vous ne passer pas par un fichier .bat)
-
-⋅⋅⋅Commencer dans : le chemin vers l'exécutable AutoConnect_no_ui.exe
+&nbsp;Programme/script : votre fichier .bat ou l'exécutable AutoConnect_no_ui.exe
+&nbsp;Arguments : _</commande>_ (seulement si vous ne passer pas par un fichier .bat)
+&nbsp;Commencer dans : le chemin vers l'exécutable AutoConnect_no_ui.exe
 
 
 #### Listes des commandes
 
->_/config <FlatySlot#> /ID <AccountID> /PW <PassWord> /Trajet <PathToTrajet> /IA <PathToIA>_
+>_\/config <FlatySlot#> \/ID <AccountID> \/PW <PassWord> \/Trajet <PathToTrajet> \/IA <PathToIA>_
     
 -- Cette commande modifie le slot associé ou ajoute un compte au fichier de configuration si le slot n'existait pas
 
 __Exemples :__
 
 Les deux commandes suivante auront la même action :
-_/config 0 /ID myAccount /PW myPassWord /Trajet c:\trajet.lua /IA c:\IA.lua_
-_/config 0 /PW myPassWord /Trajet c:\trajet.lua /IA c:\IA.lua /ID myAccount_
+_\/config 0 \/ID myAccount \/PW myPassWord \/Trajet c:\trajet.lua \/IA c:\IA.lua_
+_\/config 0 \/PW myPassWord \/Trajet c:\trajet.lua \/IA c:\IA.lua \/ID myAccount_
 
 Il est possible de configurer un seul paramètre :
-_/config 0 /Trajet c:\Trajet.lua_
+_\/config 0 /Trajet c:\Trajet.lua_
 
 >_/connect <AccountNumber> </configTrajet> </configIA> </configNotif> </notif>_
 
