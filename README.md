@@ -10,11 +10,11 @@ Contacter moi sur discord pour en obtenir une.
 
 AutoConnect est un programme interagissant avec FlatyBot 2. Il permet la connexion, la configuration et l'automatisation de vos bots Dofus 2.
 **Il existe en trois versions :**
-    - AutoConnect UI
-    - AutoConnect No UI
-    - AutoConnect Web (fonctionnant avec la version No UI)
+⋅⋅*AutoConnect UI
+ ⋅⋅*AutoConnect No UI
+ ⋅⋅*AutoConnect Web (fonctionnant avec la version No UI)
 
-**AutoConnect UI **
+**AutoConnect UI**
 >Cette version permet de connecter et de configurer les bots grâce à une interface utilisateur directement sur l'hôte exécutant FlatyBot. 
 >_Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
 
@@ -44,11 +44,11 @@ _Depuis l'interface Web_
 - Lancement de commande AutoConnect
 
 _Prochainement :_
-_- Gestion des tâches planifiées relatives à AutoConnect_
-_- Création et modification des trajets/IA_
-_- Visualisation des bots (fenêtre Dofus)_
-_- Contrôle à distance des bots_
-_- Gestion des actions automatisées (réponse aux messages privées)_
+⋅⋅*_- Gestion des tâches planifiées relatives à AutoConnect_
+⋅⋅*_- Création et modification des trajets/IA_
+⋅⋅*_- Visualisation des bots (fenêtre Dofus)_
+⋅⋅*_- Contrôle à distance des bots_
+⋅⋅*_- Gestion des actions automatisées (réponse aux messages privées)_
 
 ## Prérequis 
 
@@ -70,11 +70,12 @@ La configuration des dossiers doit être respecté sans quoi, certaines fonction
 Le client AutoConnect doit être démarré pour que l'interface Web fonctionne.
 
 **IMPORTANT**
+
 Pour les version Web et No UI, une session Windows doit être ouverte pour que le programme fonctionne. Si vous utilisez une connexion à distance (RDP par exemple) sur un VPS vous devez quitter votre session en utilisant le script prévu à cet effet sans quoi les tâches ne pourront pas être exécuter correctement.
 
 ## Installation et Utilisation
 
-**AutoConnect UI**
+### **AutoConnect UI**
 
 - Extraire l'archive AutoConnect_UI dans le dossier FlatyBot (où se trouve FlatyBot.exe)
 - Lancer le programme avec les droits nécessaires
@@ -83,15 +84,18 @@ Pour les version Web et No UI, une session Windows doit être ouverte pour que l
 - Connecter les bots
 
 _Save_
+
 Permet de sauvegarder la configuration (Nom de nom, mot de passe, trajet et IA) dans un fichier pour ne pas avoir à remplir les champs à chaque utilisation.
 
 _connect_Selected_
+
 Permet de connecter les slots cochés. Permet également de configurer/reconfigurer les trajets, IA et clé de notifications PushBullet. Enfin vous pouvez activer les notifications PushBullet.
 
 _connect_All_
+
 Permet de connecter l'ensemble des comptes configurés.
 
-**AutoConnect No UI**
+### **AutoConnect No UI**
 
 - Extraire l'archive AutoConnect_No_UI dans le dossier FlatyBot (où se trouve FlatyBot.exe)
 
@@ -107,60 +111,63 @@ __Planification des tâches :__
 - Ouvrir le planificateur de tâches Windows
 - Créer une nouvelle tâches
 - Ajouter la tâche (dans action):
-> Programme/script : votre fichier .bat ou l'exécutable AutoConnect_no_ui.exe
-> Arguments : _</commande>_ (seulement si vous ne passer pas par un fichier .bat)
-> Commencer dans : le chemin vers l'exécutable AutoConnect_no_ui.exe
+⋅⋅⋅Programme/script : votre fichier .bat ou l'exécutable AutoConnect_no_ui.exe
+⋅⋅⋅Arguments : _</commande>_ (seulement si vous ne passer pas par un fichier .bat)
+⋅⋅⋅Commencer dans : le chemin vers l'exécutable AutoConnect_no_ui.exe
 
+#### Listes des commandes
 
 _/config <FlatySlot#> /ID <AccountID> /PW <PassWord> /Trajet <PathToTrajet> /IA <PathToIA>_
+    
 -- Cette commande modifie le slot associé ou ajoute un compte au fichier de configuration si le slot n'existait pas
 
 __Exemples :__
 
 Les deux commandes suivante auront la même action :
->/config 0 /ID myAccount /PW myPassWord /Trajet c:\trajet.lua /IA c:\IA.lua
->/config 0 /PW myPassWord /Trajet c:\trajet.lua /IA c:\IA.lua /ID myAccount
+_/config 0 /ID myAccount /PW myPassWord /Trajet c:\trajet.lua /IA c:\IA.lua_
+_/config 0 /PW myPassWord /Trajet c:\trajet.lua /IA c:\IA.lua /ID myAccount_
 
 Il est possible de configurer un seul paramètre :
->/config 0 /Trajet c:\Trajet.lua
+_/config 0 /Trajet c:\Trajet.lua_
 
-_/connect <AccountNumber> </configTrajet> </configIA> </configNotif> </notif>_
->-- Cette commande permet de connecter les bots et de lancer les trajets.
+>_/connect <AccountNumber> </configTrajet> </configIA> </configNotif> </notif>_
+⋅⋅⋅-- Cette commande permet de connecter les bots et de lancer les trajets.
 
-**[ATTENTION]** : Cette commande ferme toute les instances de FlatyBot, FlatyVore et Dofus lorsqu'elle est lancée
+**[ATTENTION]**
+Cette commande ferme toute les instances de FlatyBot, FlatyVore et Dofus lorsqu'elle est lancée
 
 __Deux utilisations possibles :__
 
 - Connecter tout les bots :
 >_/connect_ 
->-- Cette commande connectera tout les bots sans les reconfigurer
+⋅⋅⋅-- Cette commande connectera tout les bots sans les reconfigurer
 
 >_/connect /configIA_
->-- Cette commande connectera tout les bots en reconfigurant l'IA de chaque compte par rapport au fichier de configuration
+⋅⋅⋅-- Cette commande connectera tout les bots en reconfigurant l'IA de chaque compte par rapport au fichier de configuration
 
 >_/connect /configTrajet /configIA /configNotif /notif_
->-- Cette commande connectera tout les bots en les reconfigurant complètement d'après le fichier de configuration et activera les notifiactions sur chacun d'eux
+⋅⋅⋅-- Cette commande connectera tout les bots en les reconfigurant complètement d'après le fichier de configuration et activera les notifiactions sur chacun d'eux
 
 - Connecter seulement les bots sélectionner :
 >_/connect 0 1 5 6_
->-- Cette commande connectera les comptes 0,1,5 et 6 sur les slots 0,1,2 et 3
+⋅⋅⋅-- Cette commande connectera les comptes 0,1,5 et 6 sur les slots 0,1,2 et 3
 
 >_/connect 0 /configTrajet /notif 4 /configNotif /notif_
->-- Cette commande connectera le bot 0 en reconfigurant le trajet et en activant les notifications. Elle connectera également le bot 4 en reconfigurant les notifications et en les activants.
+⋅⋅⋅-- Cette commande connectera le bot 0 en reconfigurant le trajet et en activant les notifications. Elle connectera également le bot 4 en reconfigurant les notifications et en les activants.
 
-_/kill_FlatyBot_
->-- Cette commande termine toute les instances de FlatyBot
+>_/kill_FlatyBot_
+⋅⋅⋅-- Cette commande termine toute les instances de FlatyBot
 
-_/kill_FlatyVore_
->-- Cette commande termine toute les instances de FlatyVore
+>_/kill_FlatyVore_
+⋅⋅⋅-- Cette commande termine toute les instances de FlatyVore
 
-_/kill_Dofus_
->-- Cette commande termine toute les instances de Dofus
+>_/kill_Dofus_
+⋅⋅⋅-- Cette commande termine toute les instances de Dofus
 
-**AutoConnect Web**
+### **AutoConnect Web**
 
 - Extraire l'archive AutoConnect_Web dans le dossier FlatyBot (où se trouve FlatyBot.exe)
->**Ne modifiez pas la structure des dossiers**
+⋅⋅⋅**Ne modifiez pas la structure des dossiers**
 - Ouvrir le fichier licencekey.txt pour remplir votre clé de licence
 - Lancer le fichier client AutoConnect.exe
 
