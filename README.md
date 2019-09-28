@@ -17,13 +17,13 @@ AutoConnect est un programme interagissant avec FlatyBot 2. Il permet la connexi
 
 **AutoConnect UI**
 
-&nbsp;&nbsp;&nbsp;&nbsp;Cette version permet de connecter et de configurer les bots grâce à une interface utilisateur directement sur l'hôte exécutant FlatyBot. 
+&nbsp;&nbsp;&nbsp;&nbsp;Cette version permet de connecter et de configurer les bots grâce à une interface utilisateur directement sur l'hôte exécutant FlatyBot.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
 
 **AutoConnect No UI**
 
-&nbsp;&nbsp;&nbsp;&nbsp;Cette version, comme son nom l'indique, fonctionne sans interface utilisateur. Elle possède les mêmes fonctionnalités que la version UI mais les commandes se lancent depuis un terminal. 
-Elle a l'avantage de permettre la planification des tâches depuis le planificateur de tâches Windows.
+&nbsp;&nbsp;&nbsp;&nbsp;Cette version, comme son nom l'indique, fonctionne sans interface utilisateur. Elle possède les mêmes fonctionnalités que la version UI mais les commandes se lancent depuis un terminal. <br />
+Elle a l'avantage de permettre la planification des tâches depuis le planificateur de tâches Windows.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
 
 **AutoConnect Web**
@@ -136,16 +136,16 @@ __Planification des tâches :__
 
 __Exemples :__
 
-Les deux commandes suivante auront la même action :
-_\/config 0 \/ID myAccount \/PW myPassWord \/Trajet c:\trajet.lua \/IA c:\IA.lua_
-_\/config 0 \/PW myPassWord \/Trajet c:\trajet.lua \/IA c:\IA.lua \/ID myAccount_
+Les deux commandes suivante auront la même action :<br />
+>_\/config 0 \/ID myAccount \/PW myPassWord \/Trajet c:\trajet.lua \/IA c:\IA.lua_
+>_\/config 0 \/PW myPassWord \/Trajet c:\trajet.lua \/IA c:\IA.lua \/ID myAccount_
 
 Il est possible de configurer un seul paramètre :
-_\/config 0 /Trajet c:\Trajet.lua_
+>_\/config 0 /Trajet c:\Trajet.lua_
 
 >_/connect <AccountNumber> </configTrajet> </configIA> </configNotif> </notif>_
 
-⋅⋅⋅-- Cette commande permet de connecter les bots et de lancer les trajets.
+&nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande permet de connecter les bots et de lancer les trajets.
 
 **[ATTENTION]**
 Cette commande ferme toute les instances de FlatyBot, FlatyVore et Dofus lorsqu'elle est lancée
@@ -155,11 +155,11 @@ __Deux utilisations possibles :__
 - Connecter tout les bots :
 >_/connect_ 
 
-⋅⋅⋅-- Cette commande connectera tout les bots sans les reconfigurer
+&nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande connectera tout les bots sans les reconfigurer
 
 >_/connect /configIA_
 
-⋅⋅⋅-- Cette commande connectera tout les bots en reconfigurant l'IA de chaque compte par rapport au fichier de configuration
+&nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande connectera tout les bots en reconfigurant l'IA de chaque compte par rapport au fichier de configuration
 
 >_/connect /configTrajet /configIA /configNotif /notif_
 
@@ -189,7 +189,7 @@ __Deux utilisations possibles :__
 ### **AutoConnect Web**
 
 - Extraire l'archive AutoConnect_Web dans le dossier FlatyBot (où se trouve FlatyBot.exe)
-&nbsp;&nbsp;&nbsp;&nbsp;**Ne modifiez pas la structure des dossiers**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Ne modifiez pas la structure des dossiers**
 - Ouvrir le fichier licencekey.txt pour remplir votre clé de licence
 - Lancer le fichier client AutoConnect.exe
 
