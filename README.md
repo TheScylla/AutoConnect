@@ -15,17 +15,20 @@ AutoConnect est un programme interagissant avec FlatyBot 2. Il permet la connexi
 * AutoConnect No UI
 * AutoConnect Web (fonctionnant avec la version No UI)
 
-**AutoConnect UI**.
+**AutoConnect UI**
+
 ⋅⋅⋅ Cette version permet de connecter et de configurer les bots grâce à une interface utilisateur directement sur l'hôte exécutant FlatyBot. 
-⋅⋅⋅_Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
+⋅⋅⋅ Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
 
 **AutoConnect No UI**
-⋅⋅⋅Cette version, comme son nom l'indique, fonctionne sans interface utilisateur. Elle possède les mêmes fonctionnalités que la version UI mais les commandes se lancent depuis un terminal. 
+
+⋅⋅⋅ Cette version, comme son nom l'indique, fonctionne sans interface utilisateur. Elle possède les mêmes fonctionnalités que la version UI mais les commandes se lancent depuis un terminal. 
 Elle a l'avantage de permettre la planification des tâches depuis le planificateur de tâches Windows.
-⋅⋅⋅_Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
+⋅⋅⋅ Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
 
 **AutoConnect Web**
-⋅⋅⋅Cette version permet au utilisateur de gérer leurs bots Flaty depuis une interface Web. Elle possède les mêmes fonctionnalités que les deux versions précédentes tout-en en ajoutant de nouvelles.
+
+⋅⋅ Cette version permet au utilisateur de gérer leurs bots Flaty depuis une interface Web. Elle possède les mêmes fonctionnalités que les deux versions précédentes tout-en en ajoutant de nouvelles.
 
 ## Fonctionnalités
 
@@ -44,12 +47,13 @@ _Depuis l'interface Web_
 - Visualisation des informations de status de chaque Slot
 - Lancement de commande AutoConnect
 
-_Prochainement :_
-⋅⋅*_- Gestion des tâches planifiées relatives à AutoConnect_
-⋅⋅*_- Création et modification des trajets/IA_
-⋅⋅*_- Visualisation des bots (fenêtre Dofus)_
-⋅⋅*_- Contrôle à distance des bots_
-⋅⋅*_- Gestion des actions automatisées (réponse aux messages privées)_
+*_Prochainement :_*
+
+*_- Gestion des tâches planifiées relatives à AutoConnect_
+*_- Création et modification des trajets/IA_
+*_- Visualisation des bots (fenêtre Dofus)_
+*_- Contrôle à distance des bots_
+*_- Gestion des actions automatisées (réponse aux messages privées)_
 
 ## Prérequis 
 
