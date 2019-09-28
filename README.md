@@ -24,7 +24,7 @@ AutoConnect est un programme interagissant avec FlatyBot 2. Il permet la connexi
 
 &nbsp;&nbsp;&nbsp;&nbsp;Cette version, comme son nom l'indique, fonctionne sans interface utilisateur. Elle possède les mêmes fonctionnalités que la version UI mais les commandes se lancent depuis un terminal. <br />
 Elle a l'avantage de permettre la planification des tâches depuis le planificateur de tâches Windows.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée_
+&nbsp;&nbsp;&nbsp;&nbsp;Cette version sera maintenu fonctionnelle mais aucune nouveauté ne devrait y être apportée
 
 **AutoConnect Web**
 
@@ -117,8 +117,8 @@ __Utilisation :__
 
 __Planification des tâches :__
 
-- _Facultatif_ Créer un fichier batch (.bat)
-- _Facultatif_ Ajouter la/les commande(s) à effectuer durant la tâche (avec un délais entre chaque si nécessaire)
+- Créer un fichier batch (.bat) _Facultatif_
+- Ajouter la/les commande(s) à effectuer durant la tâche (avec un délais entre chaque si nécessaire) _Facultatif_
 - Ouvrir le planificateur de tâches Windows
 - Créer une nouvelle tâches
 - Ajouter la tâche (dans action):
@@ -142,7 +142,7 @@ Les deux commandes suivante auront la même action :<br />
 
 Il est possible de configurer un seul paramètre :
 >_\/config 0 /Trajet c:\Trajet.lua_
-
+-----
 >_/connect <AccountNumber> </configTrajet> </configIA> </configNotif> </notif>_
 
 &nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande permet de connecter les bots et de lancer les trajets.
@@ -174,14 +174,17 @@ __Deux utilisations possibles :__
 
 &nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande connectera le bot 0 en reconfigurant le trajet et en activant les notifications. Elle connectera également le bot 4 en reconfigurant les notifications et en les activants.
 
+-----
 >_/kill_FlatyBot_
 
 &nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande termine toute les instances de FlatyBot
 
+-----
 >_/kill_FlatyVore_
 
 &nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande termine toute les instances de FlatyVore
 
+-----
 >_/kill_Dofus_
 
 &nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande termine toute les instances de Dofus
