@@ -1,8 +1,8 @@
 # AutoConnect For FlatyBot 2
 
-**AutoConnect Web**
-Pour utiliser l'interface Web vous devez posséder une licence AutoConnect valide. 
-Contacter moi sur discord pour en obtenir une.
+**AutoConnect Web**<br />
+Pour utiliser l'interface Web vous devez posséder une licence AutoConnect valide. <br />
+Contacter moi sur discord pour en obtenir une.<br />
 *Discord: Scylla#8361*
 
 **Aucune donnée n'est sauvegardée par les serveurs (hors licences et identifiants AutoConnect). Si vous écrasez un fichier de configuration, un trajet ou une IA je serais dans l'incapacité de restaurer les données**
