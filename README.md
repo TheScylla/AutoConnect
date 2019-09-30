@@ -5,10 +5,26 @@ Pour utiliser l'interface Web vous devez posséder une licence AutoConnect valid
 Contacter moi sur discord pour en obtenir une.
 *Discord: Scylla#8361*
 
+**Aucune donnée n'est sauvegardée par les serveurs (hors licences et identifiants AutoConnect). Si vous écrasez un fichier de configuration, un trajet ou une IA je serais dans l'incapacité de restaurer les données**
 
 ## Introduction
 
 AutoConnect est un programme interagissant avec FlatyBot 2. Il permet la connexion, la configuration et l'automatisation de vos bots Dofus 2.
+J'ai développer ces programmes durant mon temps libre et j'ai décidé de vous les partager. Je fais du mieux que je peux pour les maintenir à jour et fonctionnel mais étant étudiant je peux prendre du retard lors d'une grosse mise à jour Dofus/FlatyBot.
+
+Les programmes proposés sont en **BETA**, ils sont donc en cours de développement. Vous utilisez/achetez les programmes/scripts en connaissances de causes.
+
+Deux des trois programmes sont gratuits. Le troisième est payant car il offre beaucoup plus de possibilités et a été plus long à mettre en place. Il nécessite également une maintenance plus lourde (logiciel et matériel).
+
+**Un script permettant d'empêcher les sessions RDP de se fermer est proposé avec AutoConnect Web. Il a été testé sur Windows 10 et Windows Server 2016 (sans licence).**
+
+Le développement d'AutoConnect Web et les fonctionnalités développées en priorités dépendront de l'avancement de FlatyCloud.
+
+**Faites moi vos retours sur discord en précisant au mieux votre expérience. Vous pouvez également me soumettre des idées/demandes**
+
+-----
+
+
 **Il existe en trois versions :**
 
 * AutoConnect UI
@@ -30,6 +46,8 @@ Elle a l'avantage de permettre la planification des tâches depuis le planificat
 
 &nbsp;&nbsp;&nbsp;&nbsp;Cette version permet au utilisateur de gérer leurs bots Flaty depuis une interface Web. Elle possède les mêmes fonctionnalités que les deux versions précédentes tout-en en ajoutant de nouvelles.
 
+L'utilisation d'AutoConnect Web est restreinte par des licences payantes. J'heberge personnellement l'ensemble des serveurs permettant le bon fonctionnement de la suite de programme.
+
 ## Fonctionnalités
 
 **AutoConnect UI/No UI**
@@ -38,6 +56,8 @@ Elle a l'avantage de permettre la planification des tâches depuis le planificat
 - Modification du fichier de configuration
 - Configuration des identifiants, trajets et IA pour chaque slots
 - Planification des tâches (reservé à No UI)
+
+---
 
 **AutoConnect Web**
 
@@ -60,6 +80,8 @@ _- Contrôle à distance des bots_
 
 _- Gestion des actions automatisées (réponse aux messages privées)_
 
+Certaines des prochaines fonctionnalités présentées ci-dessus sont plus conséquentes pour mon infrastructure réseau et pour le serveur, c'est pourquoi je me réserve le droit de limiter l'accès à certaines licences.
+
 
 ## Prérequis 
 
@@ -69,16 +91,22 @@ _Chez certains utilisateurs l'anti-virus peut bloquer le programme car il contr�
 
 Aucun prérequis particulier hormis le contenu de l'archive.
 
+---
+
 **AutoConnect No UI**
 
 Aucun prérequis particulier hormis le contenu de l'archive. 
-Il faut cependant passer par un fichier .bat pour lancer les tâches automatisées (corrigé dans une prochaine version)
+Il faut cependant passer par un fichier .bat pour lancer les tâches automatisées (corrigé dans une prochaine version).
+
+---
 
 **AutoConnect Web**
 
 L'hôte doit être connecté à internet. Le programme (fichier exécutable) doit également avoir accès à internet pour communiquer avec le serveur AutoConnect.
 La configuration des dossiers doit être respecté sans quoi, certaines fonctionnalités ne pourront pas être utilisées.
 Le client AutoConnect doit être démarré pour que l'interface Web fonctionne.
+
+---
 
 **IMPORTANT**
 
@@ -106,6 +134,8 @@ Permet de connecter les slots cochés. Permet également de configurer/reconfigu
 
 Permet de connecter l'ensemble des comptes configurés.
 
+-----
+
 ### **AutoConnect No UI**
 
 - Extraire l'archive AutoConnect_No_UI dans le dossier FlatyBot (où se trouve FlatyBot.exe)
@@ -127,8 +157,35 @@ __Planification des tâches :__
 &nbsp;&nbsp;&nbsp;&nbsp;Arguments : _</commande>_ (seulement si vous ne passer pas par un fichier .bat)
 &nbsp;&nbsp;&nbsp;&nbsp;Commencer dans : le chemin vers l'exécutable AutoConnect_no_ui.exe
 
+-----
 
-#### Listes des commandes
+### **AutoConnect Web**
+
+- Extraire l'archive AutoConnect_Web dans le dossier FlatyBot (où se trouve FlatyBot.exe)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Ne modifiez pas la structure des dossiers**
+- Ouvrir le fichier licencekey.txt pour remplir votre clé de licence (contact discord pour obtenir une licence)
+- Lancer le fichier client AutoConnect.exe
+
+Si la session exécutant le client doit être fermée/mise en veille, vous devez utiliser la commande **/leave** pour garder le client fonctionnel !
+
+Si vous souhaitez accéder aux informations de status depuis l'interface Web, vous devez ajouter la fonction fournis dans l'archive à chacun de vos trajets concernés.
+
+Vous êtes désormais connecté au serveur AutoConnect. Vous pouvez lancer vos commandes depuis le terminal Windows ouvert lors du lancement d'AutoConnect ou bien gérer vos bots depuis l'interface Web.
+
+__Console :__
+Les commandes de la version No UI sont disponibles dans la console Web.
+Certaines commandes ne peuvent pas être lancées directement de la manière suivante :
+
+>_ MainMacro_no_UI.exe /config <args>_
+    
+Ne fonctionnera pas si vous utilisez le MainMacro_No_UI.exe de la version WEB !
+
+Vous pouvez également utiliser la _/help_ pour obtenir la liste des commandes disponibles
+
+-----
+### Listes des commandes
+
+***[Les commandes sont susceptibles de changer rapidement !]***
 
 >_\/config <FlatySlot#> \/ID <AccountID> \/PW <PassWord> \/Trajet <PathToTrajet> \/IA <PathToIA>_
     
@@ -142,6 +199,9 @@ Les deux commandes suivante auront la même action :<br />
 
 Il est possible de configurer un seul paramètre :
 >_\/config 0 /Trajet c:\Trajet.lua_
+
+Cette commande ne modifiera que le trajet du slot 0.
+
 -----
 >_/connect <AccountNumber> </configTrajet> </configIA> </configNotif> </notif>_
 
@@ -189,20 +249,5 @@ __Deux utilisations possibles :__
 
 &nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande termine toute les instances de Dofus
 
-### **AutoConnect Web**
-
-- Extraire l'archive AutoConnect_Web dans le dossier FlatyBot (où se trouve FlatyBot.exe)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Ne modifiez pas la structure des dossiers**
-- Ouvrir le fichier licencekey.txt pour remplir votre clé de licence
-- Lancer le fichier client AutoConnect.exe
-
-Si vous souhaitez accéder aux informations de status depuis l'interface Web, vous devez ajouter la fonction fournis dans l'archive à chacun de vos trajets concernés.
-
-Vous êtes désormais connecté au serveur AutoConnect. Vous pouvez lancer vos commandes depuis le terminal Windows ouvert lors du lancement d'AutoConnect ou bien gérer vos bots depuis l'interface Web.
-
-__Console :__
-Les commandes de la version No UI sont disponibles dans la console Web.
-Vous pouvez également utiliser la _/help_ pour obtenir la liste des commandes disponibles
-
-
+-----
 ## Changelog
