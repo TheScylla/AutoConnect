@@ -48,6 +48,10 @@ Elle a l'avantage de permettre la planification des tâches depuis le planificat
 
 L'utilisation d'AutoConnect Web est restreinte par des licences payantes. J'heberge personnellement l'ensemble des serveurs permettant le bon fonctionnement de la suite de programme.
 
+**Le prix des licences dépend de l'encombrement des serveurs.**
+
+Attention lors des rafraichissement répetées si vous ne voulez pas être banni automatiquement. Les serveurs Web et AutoConnect possèdent des protections anti-ddos.
+
 ## Fonctionnalités
 
 **AutoConnect UI/No UI**
@@ -182,6 +186,11 @@ Ne fonctionnera pas si vous utilisez le MainMacro_No_UI.exe de la version WEB !
 
 Vous pouvez également utiliser la _/help_ pour obtenir la liste des commandes disponibles
 
+
+###Script de gestion des sessions
+
+Ce script permet d'empêcher l'arrêt des sessions sur les machines virtuelles (VPS). Il est proposé avec AutoConnect Web.
+
 -----
 ### Listes des commandes
 
@@ -201,6 +210,12 @@ Il est possible de configurer un seul paramètre :
 >_\/config 0 /Trajet c:\Trajet.lua_
 
 Cette commande ne modifiera que le trajet du slot 0.
+
+-----
+
+>_/notif <notifKey>_
+
+&nbsp;&nbsp;&nbsp;&nbsp;-- Cette commande permet de modifier la clé de notification PushBullet dans le fichier de configuration.
 
 -----
 >_/connect <AccountNumber> </configTrajet> </configIA> </configNotif> </notif>_
@@ -251,3 +266,16 @@ __Deux utilisations possibles :__
 
 -----
 ## Changelog
+
+###BETA
+
+**V0.1**
+&nbsp;&nbsp;&nbsp;&nbsp;- Premier déploiement AutoConnect Web
+&nbsp;&nbsp;&nbsp;&nbsp;- Connexion(all+selected)/Configuration FlatyBot
+&nbsp;&nbsp;&nbsp;&nbsp;- Arrêt FlatyBot/FlatyVore/Dofus
+&nbsp;&nbsp;&nbsp;&nbsp;- Visualisation des retours d'erreur
+&nbsp;&nbsp;&nbsp;&nbsp;- Visualisation primaire des informations de status des bots
+&nbsp;&nbsp;&nbsp;&nbsp;- Lancement de commandes depuis la console Web
+&nbsp;&nbsp;&nbsp;&nbsp;- Fonction .lua de mise à jour des informations de status des bots
+&nbsp;&nbsp;&nbsp;&nbsp;- Script de gestion des sessions inactives
+&nbsp;&nbsp;&nbsp;&nbsp;- Mise en place d'un serveur AutoConnect unique et permanent
