@@ -269,13 +269,13 @@ __Deux utilisations possibles :__
 
 ###BETA
 
-**V0.1**
-&nbsp;&nbsp;&nbsp;&nbsp;- Premier déploiement AutoConnect Web
-&nbsp;&nbsp;&nbsp;&nbsp;- Connexion(all+selected)/Configuration FlatyBot
-&nbsp;&nbsp;&nbsp;&nbsp;- Arrêt FlatyBot/FlatyVore/Dofus
-&nbsp;&nbsp;&nbsp;&nbsp;- Visualisation des retours d'erreur
-&nbsp;&nbsp;&nbsp;&nbsp;- Visualisation primaire des informations de status des bots
-&nbsp;&nbsp;&nbsp;&nbsp;- Lancement de commandes depuis la console Web
-&nbsp;&nbsp;&nbsp;&nbsp;- Fonction .lua de mise à jour des informations de status des bots
-&nbsp;&nbsp;&nbsp;&nbsp;- Script de gestion des sessions inactives
-&nbsp;&nbsp;&nbsp;&nbsp;- Mise en place d'un serveur AutoConnect unique et permanent
+**V0.1**<br />
+&nbsp;&nbsp;&nbsp;&nbsp;- Premier déploiement AutoConnect Web<br />
+&nbsp;&nbsp;&nbsp;&nbsp;- Connexion(all+selected)/Configuration FlatyBot<br />
+&nbsp;&nbsp;&nbsp;&nbsp;- Arrêt FlatyBot/FlatyVore/Dofus<br />
+&nbsp;&nbsp;&nbsp;&nbsp;- Visualisation des retours d'erreur<br />
+&nbsp;&nbsp;&nbsp;&nbsp;- Visualisation primaire des informations de status des bots<br />
+&nbsp;&nbsp;&nbsp;&nbsp;- Lancement de commandes depuis la console Web<br />
+&nbsp;&nbsp;&nbsp;&nbsp;- Fonction .lua de mise à jour des informations de status des bots<br />
+&nbsp;&nbsp;&nbsp;&nbsp;- Script de gestion des sessions inactives<br />
+&nbsp;&nbsp;&nbsp;&nbsp;- Mise en place d'un serveur AutoConnect unique et permanent<br />
