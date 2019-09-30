@@ -3,7 +3,7 @@
                     "sex": "undefined",
                     "lifePoints": "undefined",
                     "maxLifePoints": "undefined",
-                    "kamas": "5264654",
+                    "kamas": "undefined",
                     "pods": "undefined",
                     "podsP": "undefined",
                     "podsMax": "undefined",
