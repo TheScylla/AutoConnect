@@ -1,0 +1,15 @@
+{"pseudo":"defaultCharacter",
+"level": "undefined",
+                    "sex": "undefined",
+                    "lifePoints": "undefined",
+                    "maxLifePoints": "undefined",
+                    "kamas": "5264654",
+                    "pods": "undefined",
+                    "podsP": "undefined",
+                    "podsMax": "undefined",
+                    "cellID": "undefined",
+                    "mapID": "undefined",
+                    "map": "undefined",
+                    "area": "undefined",
+                    "subArea": "undefined"
+}
