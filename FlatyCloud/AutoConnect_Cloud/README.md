@@ -16,6 +16,7 @@ Vous pouvez ensuite ajouté votre clé de licence.
 ## Licence
 
 Pour obtenir une licence mensuelle il faut me contacter sur Discord (Scylla#8361). 
+La licence est liée lors de la première utilisation.
 
 Prix actuel : 5€/mois
 
