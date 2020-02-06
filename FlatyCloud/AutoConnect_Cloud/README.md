@@ -6,6 +6,8 @@
 - Configuration d'un proxy par bot
 - Débugueur
 - Gestion des machines lentes
+- Start automatique des trajets
+- Planification des démarrages
 
 ## Utilisation
 
@@ -32,6 +34,24 @@ Vous pouvez ensuite ajouté votre clé de licence.
 Machine physique ou VM réactive -> LATENCE = 0
 
 VM ou machine physique limitée  -> LATENCE >= 1
+
+### Planification
+
+Pour utiliser la planification des démarrages il vous suffit de créer un script .bat.
+Dans celui-ci pour devrez préciser les arguments de lancement.
+
+Exemple en ligne de commande :
+
+> AutoConnect_FlatyCloud.exe < /noDebug> < /startTrajet> < /closeOld> < /startAll> <0 - 19>
+
+Les arguments peuvent être ajoutés dans n'importe quel ordre.
+Les arguments entre <> sont optionnels.
+
+/noDebug        : permet de ne pas afficher les fenêtres de débug
+/startTrajet    : démarre les trajets à la fin des connexions de bots
+/closeOld       : ferme les anciennes instances de bots (dofus+flatyvore)
+/startAll       : démarre tout les bots (seulement ceux configurés)
+0 - 19          : spécifie quel bot connecter
 
 ## Licence
 
