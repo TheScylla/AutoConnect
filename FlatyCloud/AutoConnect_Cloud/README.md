@@ -48,10 +48,16 @@ Les arguments peuvent être ajoutés dans n'importe quel ordre.
 Les arguments entre <> sont optionnels.
 
 /noDebug        : permet de ne pas afficher les fenêtres de débug
+
 /startTrajet    : démarre les trajets à la fin des connexions de bots
+
 /closeOld       : ferme les anciennes instances de bots (dofus+flatyvore)
+
 /startAll       : démarre tout les bots (seulement ceux configurés)
+
 0 - 19          : spécifie quel bot connecter
+
+Une fois votre ligne de commande prête et fonctionnelle. Il vous suffit de l'ajouter à une tâche planifié de windows (voir google si besoin).
 
 ## Licence
 
