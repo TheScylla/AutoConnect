@@ -4,10 +4,11 @@
 
 - Connexion d'un ensemble de bots
 - Configuration d'un proxy par bot
-- Débugueur
+- Débugueur configuration
 - Gestion des machines lentes
 - Start automatique des trajets
 - Planification des démarrages
+- Anti-blocage des bots
 
 ## Utilisation
 
@@ -19,21 +20,21 @@ Vous pouvez ensuite ajouté votre clé de licence.
 
 ### Debug
 
-**_Valeurs_** : 0 à 2
+> **_Valeurs_** : 0 à 2
 
-**_Description_** : Contrôle le niveau d'affichage des erreurs et des alertes
+> **_Description_** : Contrôle le niveau d'affichage des erreurs et des alertes
 
 ### Latence
 
-**_Valeurs_** : 0 à X
+> **_Valeurs_** : 0 à X
 
-**_Description_** : Contrôle le niveau de latence lors de la connexion des comptes
+> **_Description_** : Contrôle le niveau de latence lors de la connexion des comptes
 
 **_Remarque_** :
 
-Machine physique ou VM réactive -> LATENCE = 0
+> Machine physique ou VM réactive -> LATENCE = 0
 
-VM ou machine physique limitée  -> LATENCE >= 1
+> VM ou machine physique limitée  -> LATENCE >= 1
 
 ### Planification
 
