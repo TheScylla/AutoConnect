@@ -16,25 +16,50 @@ Pour utiliser AutoConnect pour FlatyCloud il suffit de télécharger l'exécutab
 Ensuite, lancer le fichier pour qu'il génère les fichiers de configurations nécessaires. 
 Vous pouvez ensuite ajouté votre clé de licence.
 
+![alt text](https://github.com/TheScylla/AutoConnect/blob/master/FlatyCloud/AutoConnect_Cloud/exemple.png "Exemple configuration")
+
+**Renseignement des informations**
+
+| Champ | Description |
+|-------|-------------|
+| CheckBox "Connexion" | Fonctionne avec le bouton "Connect Selected" |
+| Identifiant | Identifiant Dofus |
+| Mot de passe | Mot de passe Dofus |
+| Proxy:IP | IP du proxy |
+| Proxy:PORT | Port du proxy |
+| Proxy:ID | Identifiant du Proxy |
+| Proxy:MDP | Mot de passe du proxy |
+| Licence AutoConnect | Numéro de licence |
+| Flaty_ID | Identifiant FlatyCloud |
+| Flaty_PW | Mot de passe FlatyCloud |
+| CheckBox "Fermer les instances" | Fermera les anciennes instances en cours |
+| CheckBox "Démarrer Trajet" | Lancera les trajets après la connexion des bots |
+
+**Utilisation des boutons**
+
+| Bouton | Description |
+|--------|-------------|
+| Save   | Sauvegarde la configuration actuelle (Checkbox + TextInput) |
+| Connect Selected | Connecte seulement les bots configurés ET cochés |
+| Connect All | Connecte l'ensemble des bots configurés |
+
+
+
 ## Configuration
 
-### Debug
 
-> **_Valeurs_** : 0 à 2
-
-> **_Description_** : Contrôle le niveau d'affichage des erreurs et des alertes
-
-### Latence
-
-> **_Valeurs_** : 0 à X
-
-> **_Description_** : Contrôle le niveau de latence lors de la connexion des comptes
+| Champ | Valeurs | Description |
+|-------|---------|-------------|
+| Debug | 0 à 2   | Niveau d'affichage des erreurs et des alertes |
+| Latence | 0 à X | Niveau de latence lors de la connexion des comptes |
 
 **_Remarque_** :
 
-> Machine physique ou VM réactive -> LATENCE = 0
-
-> VM ou machine physique limitée  -> LATENCE >= 1
+<dl>
+  <dt>Machine physique ou VM réactive</dt>
+  <dd>-> LATENCE = 0</dd>
+  <dt>VM ou machine physique limitée</dt>
+  <dd>-> LATENCE >= 1</dd>
 
 ### Planification
 
